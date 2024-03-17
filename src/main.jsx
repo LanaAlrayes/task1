@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode basename={"/task1"}>
+  <React.StrictMode basename="/task1">
     <BrowserRouter >
       <App />
     </BrowserRouter>
