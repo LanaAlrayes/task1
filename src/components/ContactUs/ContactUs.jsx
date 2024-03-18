@@ -6,6 +6,8 @@ import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import Stack from "react-bootstrap/Stack";
 import Image from "react-bootstrap/Image";
+import photo from "./../../../public/contact-bg.jpg"
+import photo1 from "./../../../public/map.jpg"
 
 import { ContactData } from "../../tools/Json";
 import Buttons from "../Button/Button";
@@ -14,7 +16,7 @@ function VideoView({ title, decs, decs1 }) {
   return (
     <>
       <Card className="text-white">
-        <Card.Img src="./contact-bg.jpg" />
+        <Card.Img src={photo} />
         <Card.ImgOverlay className="d-flex justify-content-center align-content-center text-center mt-5">
           <div>
             <Card.Subtitle className="text-danger fw-bold text-uppercase">
@@ -33,7 +35,7 @@ function VideoView({ title, decs, decs1 }) {
           <Row>
             <Col xs={8}>
               <Card className="translate-middle-y mx-5">
-                <Card.Img src="./map.jpg" />
+                <Card.Img src={photo1} />
               </Card>
               <Row>
                 {ContactData.map((element, index) => (

@@ -9,12 +9,13 @@ import Form from "react-bootstrap/Form";
 
 import Buttons from "../components/Button/Button";
 import { ContactData } from "../tools/Json";
+import photo from "./../../public/page-heading-bg.jpg"
 
 function ContactUS({ title, title1, decs, decs1 }) {
   return (
     <>
       <Card className="text-white">
-        <Card.Img src="./page-heading-bg.jpg" />
+        <Card.Img src={photo}/>
         <Card.ImgOverlay className="d-flex justify-content-center align-content-center text-center mt-5">
           <div>
             <Card.Title className="bg-light text-dark py-2 fs-6 mb-4">

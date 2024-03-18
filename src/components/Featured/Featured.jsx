@@ -7,19 +7,21 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Badge from "react-bootstrap/Badge";
+import photo from "./../../../public/featured.jpg"
+import photo1 from "./../../../public/featured-icon.png"
 
 function Featured({ title, decs, decs1 }) {
   return (
     <Container expand="lg">
       <Row className="my-5">
         <Col xs={4}>
-          <Image src="./featured.jpg" />
+          <Image src={photo}/>
           <Badge
             pill
             className="bg-danger w-25 translate-middle"
             style={{height: "100px"}}
           >
-            <Image className="pt-3" src="./featured-icon.png" />
+            <Image className="pt-3" src={photo1} />
           </Badge>
         </Col>
 

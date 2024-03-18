@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import photo from "./../../public//page-heading-bg.jpg"
 
 import Buttons from "../components/Button/Button";
 import { PropertyData } from "../tools/Json";
@@ -12,7 +13,7 @@ export default function Properties( {title}) {
   return (
     <>
     <Card className="text-white">
-        <Card.Img src="./page-heading-bg.jpg" />
+        <Card.Img src={photo} />
         <Card.ImgOverlay className="d-flex justify-content-center align-content-center text-center mt-5">
          <div>
            <Card.Title className="bg-light text-dark py-2 fs-6 mb-4">HOME / PROPERTIES</Card.Title>

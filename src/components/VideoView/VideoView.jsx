@@ -5,6 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
+import photo from "./../../../public/video-bg.jpg"
+import photo1 from "./../../../public/video-frame.jpg"
 
 import { ViewData } from "../../tools/Json";
 
@@ -12,7 +14,7 @@ function VideoView({ title, decs, decs1 }) {
   return (
     <>
       <Card className="text-white">
-        <Card.Img src="./video-bg.jpg" />
+        <Card.Img src={photo} />
         <Card.ImgOverlay className="d-flex justify-content-center align-content-center text-center mt-5">
           <div>
             <Card.Subtitle className="text-danger fw-bold text-uppercase">
@@ -28,7 +30,7 @@ function VideoView({ title, decs, decs1 }) {
       </Card>
       <Container>
         <Card className="translate-middle-y mx-5 mt-4">
-          <Card.Img src="./video-frame.jpg" />
+          <Card.Img src={photo1} />
         </Card>
         <Row className="d-flex justify-content-between">
           {ViewData.map((element, index) => (

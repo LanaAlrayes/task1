@@ -5,6 +5,9 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
+import photo from "./../../../public/deal-01.jpg"
+import photo1 from "./../../../public/deal-02.jpg"
+import photo2 from "./../../../public/deal-03.jpg"
 
 import CardBestDeal from "../CardBestDeal/CardBestDeal";
 import Buttons from "../Button/Button";
@@ -37,7 +40,7 @@ function BestTabs({ title, title1, title2, subtitle, subtitle1 }) {
                 />
               </Col>
               <Col xs={5}>
-                <Image src="./deal-01.jpg" />
+                <Image src={photo} />
               </Col>
               <Col xs={4}>
                 <Card.Body className="ps-5">
@@ -71,7 +74,7 @@ function BestTabs({ title, title1, title2, subtitle, subtitle1 }) {
                 />
               </Col>
               <Col xs={5}>
-                <Image src="./deal-02.jpg" />
+                <Image src={photo1} />
               </Col>
               <Col xs={4}>
                 <Card.Body className="ps-5">
@@ -107,7 +110,7 @@ function BestTabs({ title, title1, title2, subtitle, subtitle1 }) {
                 />
               </Col>
               <Col xs={5}>
-                <Image src="./deal-03.jpg" />
+                <Image src={photo2} />
               </Col>
               <Col xs={4}>
                 <Card.Body className="ps-5">

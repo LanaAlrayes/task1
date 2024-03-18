@@ -7,13 +7,14 @@ import Image from "react-bootstrap/Image";
 import CardFeatured from "../components/CardFeatured/CardFeatured";
 import Question from "../components/Question/Question";
 import BestDeal from "../components/BestDeal/BestDeal";
-// import Buttons from "../components/Button/Button";
+import photo from "./../../public/page-heading-bg.jpg"
+import photo1 from "./../../public/single-property.jpg"
 
 export default function PropertyDetails({ title }) {
   return (
     <>
       <Card className="text-white">
-        <Card.Img src="./page-heading-bg.jpg" />
+        <Card.Img src={photo} />
         <Card.ImgOverlay className="d-flex justify-content-center align-content-center text-center mt-5">
           <div>
             <Card.Title className="bg-light text-dark py-2 fs-6 mb-4">
@@ -29,7 +30,7 @@ export default function PropertyDetails({ title }) {
       <Container>
         <Row className="my-5">
           <Col xs={9}>
-            <Image src="./single-property.jpg" />
+            <Image src={photo1} />
           </Col>
           <Col xs={3}>
             <CardFeatured

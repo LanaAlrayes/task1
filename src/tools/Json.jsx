@@ -1,4 +1,15 @@
 import { FaFacebook, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import photo from "./../../public/banner-01.jpg"
+import photo1 from "./../../public/banner-02.jpg"
+import photo2 from "./../../public/banner-03.jpg"
+import photo3 from "./../../public/property-01.jpg"
+import photo4 from "./../../public/property-02.jpg"
+import photo5 from "./../../public/property-03.jpg"
+import photo6 from "./../../public/property-04.jpg"
+import photo7 from "./../../public/property-05.jpg"
+import photo8 from "./../../public/property-06.jpg"
+import photo9 from "./../../public/phone-icon.png"
+import photo10 from "./../../public/email-icon.png"
 
 export const IconData = [
   { icon: <FaFacebook /> },
@@ -16,7 +27,7 @@ export const NavData = [
 
 export const HeroData = [
   {
-    img: "./banner-01.jpg",
+    img: photo,
     text: "Toronto, ",
     text1: "Canada",
     desc: "Hurry!",
@@ -25,7 +36,7 @@ export const HeroData = [
     desc3: "you",
   },
   {
-    img: "./banner-02.jpg",
+    img:  photo1,
     text: "Melbourne, ",
     text1: "Australia",
     desc: "Be Quick!",
@@ -34,7 +45,7 @@ export const HeroData = [
     desc3: "town",
   },
   {
-    img: "./banner-03.jpg",
+    img: photo2,
     text: "Miami, ",
     text1: "South Florida",
     desc: "Act Now!",
@@ -52,7 +63,7 @@ export const ViewData = [
 
 export const PropertyData = [
   {
-    img: "./property-01.jpg",
+    img: photo3,
     title: "Luxury Villa",
     price: "$2.264.000",
     subtitle: "18 New Street Miami, OR 97219",
@@ -63,7 +74,7 @@ export const PropertyData = [
     number4: "6 sport",
   },
   {
-    img: "./property-02.jpg",
+    img: photo4,
     title: "Luxury Villa",
     price: "$1.180.000",
     subtitle: "54 Mid Street Florida, OR 27001",
@@ -74,7 +85,7 @@ export const PropertyData = [
     number4: "8 sport",
   },
   {
-    img: "./property-03.jpg",
+    img: photo5,
     title: "Luxury Villa",
     price: "$1460.000",
     subtitle: "26 Old Street Miami, OR 38540",
@@ -85,7 +96,7 @@ export const PropertyData = [
     number4: "10 sport",
   },
   {
-    img: "./property-04.jpg",
+    img: photo6,
     title: "Luxury Villa",
     price: "$584.500",
     subtitle: "12 New Street Miami, OR 12650",
@@ -96,7 +107,7 @@ export const PropertyData = [
     number4: "2 cars",
   },
   {
-    img: "./property-05.jpg",
+    img: photo7,
     title: "Luxury Villa",
     price: "$925.600",
     subtitle: "34 Beach Street Miami, OR 42680",
@@ -107,7 +118,7 @@ export const PropertyData = [
     number4: "2 cars",
   },
   {
-    img: "./property-06.jpg",
+    img: photo8,
     title: "Luxury Villa",
     price: "$450.000",
     subtitle: "22 New Street Portland, OR 16540",
@@ -119,9 +130,9 @@ export const PropertyData = [
   },
 ];
 export const ContactData = [
-  { img: "./phone-icon.png", title: "010-020-0340", sub: "Phone Number" },
+  { img: photo9, title: "010-020-0340", sub: "Phone Number" },
   {
-    img: "./email-icon.png",
+    img: photo10,
     title: "info@villa.co",
     sub: "Business Email",
   },
