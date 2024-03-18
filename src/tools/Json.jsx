@@ -16,7 +16,7 @@ export const NavData = [
 
 export const HeroData = [
   {
-    img: "./banner-01.jpg",
+    img: "../assets/banner-01.jpg",
     text: "Toronto, ",
     text1: "Canada",
     desc: "Hurry!",
