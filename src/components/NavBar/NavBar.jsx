@@ -20,7 +20,7 @@ function NavBar({ title }) {
           <Navbar.Collapse className="justify-content-end">
             <Nav>
               <Navbar.Brand>
-                  <NavLink className="fs-6 fw-medium m-4 text-black link-offset-2 link-underline link-underline-opacity-0" to="/">Home</NavLink>
+                  <NavLink className="fs-6 fw-medium m-4 text-black link-offset-2 link-underline link-underline-opacity-0" to="/task1">Home</NavLink>
               </Navbar.Brand>
               <Navbar.Brand>
                 <NavLink className="fs-6 fw-medium m-4 text-black link-offset-2 link-underline link-underline-opacity-0" to="/properties">Properties</NavLink>
