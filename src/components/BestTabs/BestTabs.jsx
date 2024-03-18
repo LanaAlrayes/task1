@@ -37,7 +37,7 @@ function BestTabs({ title, title1, title2, subtitle, subtitle1 }) {
                 />
               </Col>
               <Col xs={5}>
-                <Image src="deal-01.jpg" />
+                <Image src="./deal-01.jpg" />
               </Col>
               <Col xs={4}>
                 <Card.Body className="ps-5">
@@ -71,7 +71,7 @@ function BestTabs({ title, title1, title2, subtitle, subtitle1 }) {
                 />
               </Col>
               <Col xs={5}>
-                <Image src="deal-02.jpg" />
+                <Image src="./deal-02.jpg" />
               </Col>
               <Col xs={4}>
                 <Card.Body className="ps-5">
@@ -107,7 +107,7 @@ function BestTabs({ title, title1, title2, subtitle, subtitle1 }) {
                 />
               </Col>
               <Col xs={5}>
-                <Image src="deal-03.jpg" />
+                <Image src="./deal-03.jpg" />
               </Col>
               <Col xs={4}>
                 <Card.Body className="ps-5">

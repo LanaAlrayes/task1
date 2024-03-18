@@ -16,7 +16,7 @@ function CardFeatured({
   return (
     <Card className="shadow px-4 py-4 w-100">
       <Stack direction="horizontal" gap={3}>
-        <Image src="info-icon-01.png" />
+        <Image src="./info-icon-01.png" />
         <Card.Body>
           <Card.Title className="fw-bolder">{title1}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted text-black-50 fw-normal">
@@ -26,7 +26,7 @@ function CardFeatured({
       </Stack>
       <hr className="text-black-50" />
       <Stack direction="horizontal" gap={3}>
-        <Image src="info-icon-02.png" />
+        <Image src="./info-icon-02.png" />
         <Card.Body>
           <Card.Title className="fw-bolder">{title2}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted text-black-50 fw-normal">
@@ -36,7 +36,7 @@ function CardFeatured({
       </Stack>
       <hr className="text-black-50" />
       <Stack direction="horizontal" gap={3}>
-        <Image src="info-icon-03.png" />
+        <Image src="./info-icon-03.png" />
         <Card.Body>
           <Card.Title className="fw-bolder">{title3}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted text-black-50 fw-normal">
@@ -46,7 +46,7 @@ function CardFeatured({
       </Stack>
       <hr className="text-black-50" />
       <Stack direction="horizontal" gap={3}>
-        <Image src="info-icon-04.png" />
+        <Image src="./info-icon-04.png" />
         <Card.Body>
           <Card.Title className="fw-bolder">{title4}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted text-black-50 fw-normal">

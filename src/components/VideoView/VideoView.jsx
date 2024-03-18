@@ -12,7 +12,7 @@ function VideoView({ title, decs, decs1 }) {
   return (
     <>
       <Card className="text-white">
-        <Card.Img src="video-bg.jpg" />
+        <Card.Img src="./video-bg.jpg" />
         <Card.ImgOverlay className="d-flex justify-content-center align-content-center text-center mt-5">
           <div>
             <Card.Subtitle className="text-danger fw-bold text-uppercase">
@@ -28,7 +28,7 @@ function VideoView({ title, decs, decs1 }) {
       </Card>
       <Container>
         <Card className="translate-middle-y mx-5 mt-4">
-          <Card.Img src="video-frame.jpg" />
+          <Card.Img src="./video-frame.jpg" />
         </Card>
         <Row className="d-flex justify-content-between">
           {ViewData.map((element, index) => (

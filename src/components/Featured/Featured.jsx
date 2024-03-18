@@ -13,7 +13,7 @@ function Featured({ title, decs, decs1 }) {
     <Container expand="lg">
       <Row className="my-5">
         <Col xs={4}>
-          <Image src="featured.jpg" />
+          <Image src="./featured.jpg" />
           <Badge
             pill
             className="bg-danger w-25 translate-middle"
