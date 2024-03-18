@@ -13,7 +13,7 @@ export default function PropertyDetails({ title }) {
   return (
     <>
       <Card className="text-white">
-        <Card.Img src="page-heading-bg.jpg" />
+        <Card.Img src="./page-heading-bg.jpg" />
         <Card.ImgOverlay className="d-flex justify-content-center align-content-center text-center mt-5">
           <div>
             <Card.Title className="bg-light text-dark py-2 fs-6 mb-4">
@@ -29,7 +29,7 @@ export default function PropertyDetails({ title }) {
       <Container>
         <Row className="my-5">
           <Col xs={9}>
-            <Image src="single-property.jpg" />
+            <Image src="./single-property.jpg" />
           </Col>
           <Col xs={3}>
             <CardFeatured
