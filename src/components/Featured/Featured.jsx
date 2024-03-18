@@ -19,7 +19,7 @@ function Featured({ title, decs, decs1 }) {
             className="bg-danger w-25 translate-middle"
             style={{height: "100px"}}
           >
-            <Image className="pt-3" src="featured-icon.png" />
+            <Image className="pt-3" src="./featured-icon.png" />
           </Badge>
         </Col>
 
